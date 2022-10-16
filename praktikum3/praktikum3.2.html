@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><br><br>
+    <table border="1" cellspacing="0" cellpadding="5" width="70%" align="center">
+        <tr align="center">
+            <td>Home</td>
+            <td>Generate Link</td>
+            <td>Transaction History</td>
+            <td>Policy</td>
+            <td>Logout</td>
+        </tr>
+    </table>
+<br>
+<div >
+    <form action="pemesanan.html">
+        <table width="70%" cellspacing="3" align="center">
+            <tr>
+                <td rowspan="3" align="right"><img src="foto.jpg" alt="" width="200"></td>
+                <td><label for="title">Title Here</label></td>
+                <td>:</td>
+                <td><input type="text" id="title"></td>
+            </tr>
+            <tr>
+                <td><label for="label">Description</label></td>
+                <td>:</td>
+                <td><textarea name="" id="label" cols="18" rows="1"></textarea></td>
+            </tr>
+            <tr>
+                <td>Account Number</td>
+                <td>:</td>
+                <td><input type="number" id="number"></td>
+            </tr>
+            <tr>
+                <td align="center"><input type="submit" value="Upload Picture"></td>
+                <td>Bank</td>
+                <td>:</td>
+                <td><select  id="">
+                    <option>HSBC</option>
+                    <option>BCA</option>
+                    <option>BTN</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="akun">Account holder</label></td>
+                <td>:</td>
+                <td><input type="text" id="akun"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="transaksi">Transaction</label></td>
+                <td>:</td>
+                <td><select id="transaksi">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>* if the transaction is for 3 person, choose from the drop-down list</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td  style="color: green;"><input type="checkbox" id="send">
+                    <label for="send">Send to mobile Phone</label></td>
+            </tr><tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td  style="color: green;"><input type="checkbox" id="send1" >
+                    <label for="send1">Send to Email</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Send to Mobile Phone</label></td>
+                <td>:</td>
+                <td><input type="number" id="no"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Send to Email</label></td>
+                <td>:</td>
+                <td><input type="email" id="email"></td>
+            </tr>
+        </table><br><br>
+        <center>
+        <button type="submit" style="background-color: green; color: white;">Generate Nabr Link</button>
+        </center>
+    </form>
+</div>
+</body>
+</html>
